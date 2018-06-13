@@ -11,13 +11,59 @@
     <script src="controllers/routeController.js"></script>
     <title>Learn AngularJS</title>
   </head>
-  <style media="screen">
+  <style >
   section{ font-family: 'Montserrat', sans-serif;}
+aside{
+  max-width: 120px;
+  padding-left: 30px;
+  padding-top: 50px;
+  float: left;
+}
 
+  img{
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+  }
+  footer, header{
+    min-height: 150px;
+    background-color: black;
+    color: white;
+  }
+  header{
+    min-height: 80px;
+    background-color: black;
+    color: white;
+  }
+ul li{
+  list-style-type: none;
+  padding-left: 0px;
+}
+aside h4{
+  padding-left: 30px;
+}
   </style>
   <body>
-    <h1 class="text-center">QA to Dev!!</h1>
+<header>
+  <h1 class="text-center">QA to Dev!!</h1>
+</header>
+<aside>
+      <img src="images/abd.png" alt="Abdul Raheem">
+      <h4>Software Engineer</h4>
+      <ul>
+        <li><a href="#">Linkedin</a></li>
+        <li><a href="#">Website</a></li>
+        <li><a href="#">Github</a></li>
+        <li><a href="#">Email</a></li>
+      </ul>
 
-    <div ng-view></div>
+</aside>
+
+      <div ng-view></div>
+
+
+<footer class="text-center">
+  <p>All rights reserved by abdulraheem :)</p>
+</footer>
   </body>
 </html>
