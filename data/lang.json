@@ -1,0 +1,32 @@
+[
+  {
+    "name": "HTML5",
+    "imgpath": "images/lang/html5.png",
+    "gist":"HTML5 is a markup language used for structuring and presenting content on the World Wide Web. It is the fifth and current major version of the HTML standard"
+  },
+  {
+    "name": "CSS3",
+    "imgpath": "images/lang/css3.png",
+  "gist":"CSS3 is the latest evolution of the Cascading Style Sheets language and aims at extending CSS2.1. It brings a lot of long-awaited novelties, like rounded corners, shadows, gradients, transitions or animations, as well as new layouts like multi-columns, flexible box or grid layouts"
+  },
+  {
+    "name": "JavaScript",
+    "imgpath": "images/lang/javascript.png",
+    "gist":"JavaScript, often abbreviated as JS, is a high-level, interpreted programming language. It is a language which is also characterized as dynamic, weakly typed, prototype-based and multi-paradigm"
+  },
+  {
+    "name": "jquery",
+    "imgpath": "images/lang/jquery.png",
+    "gist":"jQuery is a cross-platform JavaScript library designed to simplify the client-side scripting of HTML. It is free, open-source software using the permissive MIT License"
+  },
+  {
+    "name": "JAVA",
+    "imgpath": "images/lang/java.png",
+    "gist":"Java is a general-purpose computer-programming language that is concurrent, class-based, object-oriented, and specifically designed to have as few implementation dependencies as possible"
+  },
+  {
+    "name": "AngularJS",
+    "imgpath": "images/lang/angularjs.png",
+    "gist":"AngularJS is a JavaScript-based open-source front-end web application framework mainly maintained by Google and by a community of individuals and corporations to address many of the challenges encountered in developing single-page applications."
+  }
+]

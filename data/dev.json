@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Eclipse",
+    "imgpath": "images/dev/eclipse.png",
+    "gist":"Eclipse is an integrated development environment used in computer programming, and is the most widely used Java IDE. It contains a base workspace and an extensible plug-in system for customizing the environment."
+  },
+  {
+    "name": "Adobe Dreamweaver",
+    "imgpath": "images/dev/dreamweaver.png",
+    "gist":"Adobe Dreamweaver is a proprietary web development tool from Adobe Systems. It was created by Macromedia in 1997 and developed by them until Macromedia was acquired by Adobe Systems in 2005. Adobe Dreamweaver is available for macOS and for Windows."
+  },
+  {
+    "name": "Adobe Photoshop",
+    "imgpath": "images/dev/photoshop.png",
+    "gist":"Adobe Photoshop is a raster graphics editor developed and published by Adobe Systems for macOS and Windows. Photoshop was created in 1988 by Thomas and John Knoll."
+  },
+  {
+    "name": "Tomcat",
+    "imgpath": "images/dev/tomcat.png",
+    "gist":"Apache Tomcat, often referred to as Tomcat Server, is an open-source Java Servlet Container developed by the Apache Software Foundation."
+  },
+  {
+    "name": "Atom",
+    "imgpath": "images/dev/atom.png",
+    "gist":"Atom is a free and open-source text and source code editor for macOS, Linux, and Microsoft Windows with support for plug-ins written in Node.js, and embedded Git Control, developed by GitHub."
+  },
+  {
+    "name": "SQL",
+    "imgpath": "images/dev/sql.png",
+    "gist":"SQL is a domain-specific language used in programming and designed for managing data held in a relational database management system, or for stream processing in a relational data stream management system."
+  },
+  {
+    "name": "Maven",
+    "imgpath": "images/dev/maven.png",
+    "gist":"Maven is a build automation tool used primarily for Java projects. Maven addresses two aspects of building software: first, it describes how software is built, and second, it describes its dependencies."
+  },
+  {
+    "name": "Jenkins",
+    "imgpath": "images/dev/jenkins.png",
+    "gist":"Jenkins is an open source automation server written in Java. Jenkins helps to automate the non-human part of the software development process, with continuous integration and facilitating technical aspects of continuous delivery."
+  }
+]

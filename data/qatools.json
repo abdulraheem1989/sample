@@ -1,0 +1,48 @@
+[
+  {
+    "name": "HP-ALM",
+    "imgpath": "images/qatools/hpalm.png",
+    "gist":"Formerly known as HP Quality Center is a quality management software offered by Micro Focus, who acquired the software division of HP Software Division of Hewlett Packard Enterprise in 2017, with many capabilities acquired from Mercury Interactive Corporation."
+  },
+  {
+    "name": "HP-UFT",
+    "imgpath": "images/qatools/hpuft.png",
+    "gist":"HPE Unified Functional Testing software, formerly known as HP QuickTest Professional, provides functional and regression test automation for software applications and environments."
+  },
+  {
+    "name": "SoapUI",
+    "imgpath": "images/qatools/soapui.png",
+    "gist":"SoapUI is an open-source web service testing application for service-oriented architectures and representational state transfers."
+  },
+  {
+    "name": "Selenium Webdriver",
+    "imgpath": "images/qatools/selenium.png",
+    "gist":"Selenium is a portable software-testing framework for web applications."
+  },
+  {
+    "name": "Appium",
+    "imgpath": "images/qatools/appium.png",
+    "gist":" Appium is an open source test automation framework for use with native, hybrid and mobile web apps."
+  },
+  {
+    "name": "JIRA",
+    "imgpath": "images/qatools/jira.png",
+    "gist":"Jira is a proprietary issue tracking product, developed by Atlassian. It provides bug tracking, issue tracking, and project management functions."
+  },
+  {
+    "name": "ARD",
+    "imgpath": "images/qatools/ard.png",
+    "gist":"With CA Agile Requirements Designer, you can create model based automated test cases which  can improve software quality, reduce testing costs and speed up application delivery."
+  },
+  {
+    "name": "IBM-RTC",
+    "imgpath": "images/qatools/rtc.png",
+    "gist":"Rational Team Concert is a software development team collaboration tool developed by the Rational Software brand of IBM, who first released it in 2008. The software is available in both client versions, a web version, and on Cloud."
+  },
+  {
+    "name": "TestNG",
+    "imgpath": "images/qatools/testng.png",
+    "gist":"TestNG is a testing framework for the Java programming language created by Cédric Beust and inspired by JUnit and NUnit."
+  }
+
+  ]
