@@ -20,6 +20,7 @@
   <div class="col-12 row card-body">
     <ul ng-repeat="lang in languages" class="repeated-item" style="list-style-type: none;" >
       <li><img class="card-image float-right" ng-src="{{lang.imgpath}}" style="height:50px;width:50px;"></li>
+      <progress value="62" max="100"></progress>
     </ul>
   </div>
   <div id="lang" class="collapse">
@@ -39,6 +40,7 @@
   <div class="col-12 row card-body">
     <ul ng-repeat="qa in qatools" style="list-style-type: none;">
       <li><img class="card-image float-right" ng-src="{{qa.imgpath}}" style="height:50px;width:50px;"></li>
+      <progress value="80" max="100"></progress>
     </ul>
   </div>
 
@@ -62,6 +64,7 @@
   <div class="col-12 row card-body">
     <ul ng-repeat="dev in devtools" style="list-style-type: none;">
       <li><img class="card-image float-right" ng-src="{{dev.imgpath}}" style="height:50px;width:50px;"></li>
+      <progress value="60" max="100"></progress>
     </ul>
   </div>
   <div id="devtools" class="collapse">

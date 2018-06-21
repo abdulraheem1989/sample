@@ -7,28 +7,29 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300" rel="stylesheet">
+    <link rel="icon" href="images/abd.png" >
     <script src="controllers/routeController.js"></script>
     <title>Learn AngularJS</title>
   </head>
   <style >
-  section{ font-family: 'Montserrat', sans-serif;}
-aside{
-  max-width: 120px;
-  padding-left: 30px;
-  padding-top: 50px;
-  float: left;
-}
+  section{ font-family: 'Raleway', sans-serif;}
 
+h1{
+ background: -webkit-linear-gradient(white, black);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
   img{
     width: 150px;
     height: 150px;
+
     border-radius: 75px;
   }
   footer, header{
-    min-height: 150px;
+    min-height: 100px;
     background-color: black;
-    color: white;
+    color: black;
   }
   header{
     min-height: 80px;
@@ -39,14 +40,41 @@ ul li{
   list-style-type: none;
   padding-left: 0px;
 }
-aside h4{
-  padding-left: 30px;
+section li{
+  list-style-type: square;
+}
+div.main{
+    display: inline-flex;
+    min-width: 92%;
+}
+aside{
+
+  padding-left: 40px;
+  padding-top: 80px;
+
+}
+div.view{
+
+    min-width: 92%;
+}
+header{
+
+    background: linear-gradient(black, white);
+
+}
+footer{
+
+    background: linear-gradient(white, black);
+
 }
   </style>
   <body>
 <header>
-  <h1 class="text-center">QA to Dev!!</h1>
+  <h1 class="text-center">ABDUL RAHEEM</h1>
 </header>
+<div class="main">
+
+<div class="aside">
 <aside>
       <img src="images/abd.png" alt="Abdul Raheem">
       <h4>Software Engineer</h4>
@@ -56,11 +84,15 @@ aside h4{
         <li><a href="#">Github</a></li>
         <li><a href="#">Email</a></li>
       </ul>
-
 </aside>
+</div>
 
-      <div ng-view></div>
 
+<div class="view" ng-view></div>
+
+
+</div>
+<hr>
 
 <footer class="text-center">
   <p>All rights reserved by abdulraheem :)</p>
