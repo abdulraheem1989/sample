@@ -6,9 +6,9 @@ myApp.config(['$routeProvider','$locationProvider',
 function ($routeProvider,$locationProvider){
    $locationProvider.hashPrefix('');
   $routeProvider.when('/home', {templateUrl:'pages/home.html',controller:'homectrl'})
-  .when('/mytech', {templateUrl:'pages/mytech.html',controller:'techtctrl'})
+  .when('/mytech', {templateUrl:'pages/technology.html',controller:'techtctrl'})
   .when('/contact', {templateUrl:'pages/contact.html',controller:'contactctrl'})
-  .when('/blog', {templateUrl:'pages/blog.html',controller:'blogctrl'})
+  .when('/exp', {templateUrl:'pages/exp.html',controller:'blogctrl'})
   .when('/utility', {templateUrl:'pages/utility.html',controller:'weatherCtrl'})
   .otherwise('/home');
 }
@@ -19,9 +19,9 @@ myApp.component('navMenu',
   '<nav class="d-flex justify-content-center">'+
     '<ul class="nav nav-pills">'+
       '<li >'+'<a class="btn btn-light" href="#">'+'Home'+'</a>'+'</li>'+
-      '<li >'+'<a class="btn btn-light" href="#/mytech">'+'What I know'+'</a>'+'</li>'+
+      '<li >'+'<a class="btn btn-light" href="#/exp" >'+'Experience'+'</a>'+'</li>'+
+      '<li >'+'<a class="btn btn-light" href="#/mytech">'+'Technology'+'</a>'+'</li>'+
       '<li >'+'<a class="btn btn-light" href="#/contact">'+'Contact me'+'</a>'+'</li>'+
-      '<li >'+'<a class="btn btn-light" href="#/blog" >'+'Blog'+'</a>'+'</li>'+
       '<li >'+'<a class="btn btn-light" href="#/utility" >'+'Utilities'+'</a>'+'</li>'+
     '</ul>'+
   '</nav>'
