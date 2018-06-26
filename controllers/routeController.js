@@ -33,7 +33,7 @@ controllers.blogctrl=function ($scope){
     $scope.text="Welcome to my blog!!!";
 };
 controllers.contactctrl=function ($scope){
-    $scope.text="Thanks for contacting!";
+    $scope.text="Fill the information below. I will contact you rightaway. Thanks!";
 };
 controllers.techtctrl=function($scope,$http){
       $http.get('data/lang.json').then(
