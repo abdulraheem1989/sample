@@ -15,11 +15,55 @@
     <script src="controllers/routeController.js"></script>
     <title>Abdul Raheem</title>
   </head>
-  <style media="screen">
+<style media="screen">
+section{ font-family: 'Raleway', sans-serif;}
 
+img{
+  min-height: 80px;
+  min-width: 80px;
+  max-width: 12%;
+  max-height: 12%;
+  margin-left: 3%;
+  margin-top: 3%;
+  float: left;
+}
+.profilepic{
+  width: 35%;
+}
+.profilename{
+  width: 65%;
+  text-align: center;
 
-  </style>
-<body>
+  padding-top: 3%;
+
+}
+footer, header{
+  min-height: 100px;
+  background-color: black;
+  color: black;
+}
+header{
+  font-family: 'IM Fell English SC', serif;
+}
+
+ul li{
+list-style-type: none;
+padding-left: 0px;
+color: black;
+}
+section li{
+list-style-type: square;
+}
+header{
+  background: linear-gradient(black, white);
+}
+
+footer{
+  background: linear-gradient(white, black);
+}
+
+</style>
+  <body>
 
   <header >
     <div class="container">
@@ -32,28 +76,12 @@
   </div>
   </header>
 
-<nav class="navbar navbar-dark bg-dark navbar-expand-sm">
-<div class="container">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-  </button>
-
-      <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link" href="#">Home</a>
-          <a class="nav-item nav-link" href="#/exp">Experience</a>
-          <a class="nav-item nav-link" href="#/mytech">Technology</a>
-          <a class="nav-item nav-link" href="#/contact">Contact me</a>
-          <a class="nav-item nav-link" href="#/utility">Utilities</a>
-        </div>
-      </div>
-    </div>
-  </nav>
+<nav-menu></nav-menu>
 
 <div ng-view></div>
-<hr>
 
   <footer class="text-center" >
+    <hr>
     <div class="container">
     <h5>Contact Me</h5>
     <p style="color:white;"><a href="https://www.linkedin.com/in/abdul-raheem-abdul-ajeem/">LinkedIn</a>  | Website  |  GitHub  |  Facebook</p>
