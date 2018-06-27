@@ -18,11 +18,11 @@ myApp.component('navMenu',
 {template:
   '<nav class="d-flex justify-content-center">'+
     '<ul class="nav nav-pills">'+
-      '<li >'+'<a class="btn btn-light" href="#">'+'Home'+'</a>'+'</li>'+
-      '<li >'+'<a class="btn btn-light" href="#/exp" >'+'Experience'+'</a>'+'</li>'+
-      '<li >'+'<a class="btn btn-light" href="#/mytech">'+'Technology'+'</a>'+'</li>'+
-      '<li >'+'<a class="btn btn-light" href="#/contact">'+'Contact me'+'</a>'+'</li>'+
-      '<li >'+'<a class="btn btn-light" href="#/utility" >'+'Utilities'+'</a>'+'</li>'+
+      '<li >'+'<a class="btn btn-light border" href="#">'+'Home'+'</a>'+'</li>'+
+      '<li >'+'<a class="btn btn-light border" href="#/exp" >'+'Experience'+'</a>'+'</li>'+
+      '<li >'+'<a class="btn btn-light border" href="#/mytech">'+'Technology'+'</a>'+'</li>'+
+      '<li >'+'<a class="btn btn-light border" href="#/contact">'+'Contact me'+'</a>'+'</li>'+
+      '<li >'+'<a class="btn btn-light border" href="#/utility" >'+'Utilities'+'</a>'+'</li>'+
     '</ul>'+
   '</nav>'
 });
@@ -54,7 +54,7 @@ controllers.weatherCtrl= function ($scope,$http) {
 
 $scope.getWeather=function() {
 
-  $http.get("http://api.openweathermap.org/data/2.5/forecast?zip=" + $scope.zip + "&appid=8b9f3ac07ed74b0c0150058e4150f8df")
+  $http.get("http://api.openweathermap.org/data/2.5/forecast?zip=" + $scope.zip + "&appid=" + $scope.key)
   .then(function(response){
             $scope.weatherdata=response.data;
 

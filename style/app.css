@@ -1,3 +1,45 @@
-div{
+section{ font-family: 'Raleway', sans-serif;}
+
+img{
+  min-height: 80px;
+  min-width: 80px;
+  max-width: 12%;
+  max-height: 12%;
+  margin-left: 3%;
+  margin-top: 3%;
   float: left;
+}
+.profilepic{
+  width: 35%;
+}
+.profilename{
+  width: 65%;
+  text-align: center;
+
+  padding-top: 3%;
+
+}
+footer, header{
+  min-height: 100px;
+  background-color: black;
+  color: black;
+}
+header{
+  font-family: 'IM Fell English SC', serif;
+}
+
+ul li{
+list-style-type: none;
+padding-left: 0px;
+color: black;
+}
+section li{
+list-style-type: square;
+}
+header{
+  background: linear-gradient(black, white);
+}
+
+footer{
+  background: linear-gradient(white, black);
 }

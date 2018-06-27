@@ -19,19 +19,16 @@
   }
   </style>
   <body>
-    <div class="container" >
-        <nav-menu></nav-menu>
-    </div>
-
     <div class="container" style="min-height:1000px;">
     <div class="border">
 
       <h4>Hmmm... Why don't we do some samples using AngularJS!</h4>
 
-      <h6>1) Let's pull up the Weather forecast using Open weathermap API:</h6>
+      <h6>1) Let's pull up the city Name using the 5 digit  Zip code:</h6>
       <br>
-      <input ng-model="zip">
-      <button class="btn" ng-click="getWeather()">Get Weather</button>
+      <input ng-model="zip" placeholder="zipcode">
+      <input type="password" ng-model="key" placeholder="API key">
+      <button class="btn" ng-click="getWeather()">Get City</button>
 
       <br>
       <span>{{weatherdata.city.name + ', ' + weatherdata.city.country}}</span>
