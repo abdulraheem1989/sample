@@ -17,10 +17,15 @@
     padding-left: 5%;
     padding-top: 1%;
   }
+  body{
+    background-color: #00b386;
+    color: white;
+  }
+
   </style>
   <body>
     <div class="container" style="min-height:1000px;">
-    <div class="border">
+    <div>
 
       <h4>Hmmm... Why don't we do some samples using AngularJS!</h4>
 
@@ -31,8 +36,8 @@
       <button class="btn" ng-click="getWeather()">Get City</button>
 
       <br>
-      <span>{{weatherdata.city.name + ', ' + weatherdata.city.country}}</span>
-      <span>{{f_max}}</span>
+      <span>{{weatherdata.city.name + ' ' + weatherdata.city.country}}</span>
+
     </div>
 </div>
   </body>
