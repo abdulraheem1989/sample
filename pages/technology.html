@@ -16,75 +16,65 @@ body{
   color: white;
 }
 
+ul img{
+  background-color: #00cc99;
+  border-style: outset;
+  opacity: 0.9;
+}
+ul li{
+  display: inline-block;
+}
+.mytech{
+  width: 85%;
+  margin:5% auto;
+}
+.container-fluid{
+  margin: 0;
+}
 </style>
+<div class ="container" style="min-height: 500px;">
+  <section class="mytech">
 
-<div class="container" style="min-height:1000px;">
 
-<div class="shadow">
-  <div class="float-left">
-    <h4>Technologies I know</h4>
-  </div>
-  <div class="float-right">
-    <button type="button" class="btn btn-light float-right" data-toggle="collapse" data-target="#lang">Expand</button>
-  </div>
-  <div class="col-12 row card-body">
-    <ul ng-repeat="lang in languages" class="repeated-item" style="list-style-type: none;" >
-      <li><img class="card-image float-right" ng-src="{{lang.imgpath}}" style="height:50px;width:50px;"></li>
-      <progress value="62" max="100"></progress>
-    </ul>
-  </div>
-  <div id="lang" class="collapse">
-    <section class="card mb-2" ng-repeat="lang in languages">
-      <div class="card-body shadow">
-        <p class="card-title .font-weight-bold">{{lang.name}}</p>
-        <img class="card-image" style="height: 50px;width:50px;" ng-src="{{lang.imgpath}}">
-        <p class="card-text">{{lang.gist}}</p>
+      <nav class="navbar navbar-dark bg-dark rounded">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#frontend" aria-controls="frontend" aria-expanded="false" aria-label="Toggle navigation">
+          <span>Front End Tech</span>
+        </button>
+      </nav>
+    <div class="row" >
+      <div class="col-12 row collapse" id="frontend" style="margin-top:15px;">
+        <ul ng-repeat="lang in languages" style="list-style-type: none;" >
+          <li><img class="rounded-circle" ng-src="{{lang.imgpath}}" style="height:50px;width:50px;"></li>
+        </ul>
       </div>
-    </section>
-  </div>
-</div>
+    </div>
 
-<div class="shadow">
-  <h4 >QA tools worked</h4>
-  <button type="button" class="btn btn-light float-right" data-toggle="collapse" data-target="#qatools">Expand</button>
-
-  <div class="col-12 row card-body">
-    <ul ng-repeat="qa in qatools" style="list-style-type: none;">
-      <li><img class="card-image float-right" ng-src="{{qa.imgpath}}" style="height:50px;width:50px;"></li>
-      <progress value="80" max="100"></progress>
-    </ul>
-  </div>
-
-
-
-  <div id="qatools" class="collapse">
-    <section class="card mb-2" ng-repeat="qa in qatools">
-      <div class="card-body">
-        <p class="card-title .font-weight-bold">{{qa.name}}</p>
-        <img class="card-image" style="height: 50px;width:50px;" ng-src="{{qa.imgpath}}">
-        <p class="card-text">{{qa.gist}}</p>
+        <nav class="navbar navbar-dark bg-dark rounded">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#qatools" aria-controls="qatools" aria-expanded="false" aria-label="Toggle navigation">
+            <span>QA tools</span>
+          </button>
+        </nav>
+      <div class="row">
+        <div class="col-12 row float-left collapse" id="qatools" style="margin-top:15px;">
+          <ul ng-repeat="qa in qatools" style="list-style-type: none;">
+            <li><img class="rounded-circle" ng-src="{{qa.imgpath}}" style="height:50px;width:50px;"></li>
+          </ul>
       </div>
+      </div>
+
+
+        <nav class="navbar navbar-dark bg-dark rounded">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#devtools" aria-controls="devtools" aria-expanded="false" aria-label="Toggle navigation">
+            <span>Dev tools</span>
+          </button>
+        </nav>
+<div class="row">
+      <div class="col-12 row collapse" id="devtools" style="margin-top:15px;">
+        <ul ng-repeat="dev in devtools" style="list-style-type: none;">
+          <li><img class="rounded-circle" ng-src="{{dev.imgpath}}" style="height:50px;width:50px;"></li>
+        </ul>
+      </div>
+    </div>
 
   </section>
-  </div>
-</div>
-
-<div class="shadow">
-  <h4 >Dev tools worked</h4>
-  <button type="button" class="btn btn-light float-right" data-toggle="collapse" data-target="#devtools">Expand</button>
-  <div class="col-12 row card-body">
-    <ul ng-repeat="dev in devtools" style="list-style-type: none;">
-      <li><img class="card-image float-right" ng-src="{{dev.imgpath}}" style="height:50px;width:50px;"></li>
-      <progress value="60" max="100"></progress>
-    </ul>
-  </div>
-  <div id="devtools" class="collapse">
-    <section class="card mb-2" ng-repeat="dev in devtools">
-    <div class="card-body">
-      <p class="card-title .font-weight-bold">{{dev.name}}</p>
-      <img class="card-image" style="height: 50px;width:50px;" ng-src="{{dev.imgpath}}">
-      <p class="card-text">{{dev.gist}}</p>
-    </div>
-    </section>
-  </div>
 </div>

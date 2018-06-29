@@ -55,6 +55,10 @@ controllers.techtctrl=function($scope,$http){
             function(response){
               $scope.devtools=response.data;
         });
+      $scope.ind=true;
+      $scope.togFunc=function(){
+        $scope.tog= !$scope.ind;
+      };
 };
 
 controllers.weatherCtrl= function ($scope,$http) {
