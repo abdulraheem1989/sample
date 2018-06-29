@@ -28,8 +28,14 @@ ul li{
   width: 85%;
   margin:5% auto;
 }
-.container-fluid{
-  margin: 0;
+img.ng-enter{
+  transition: 0.2s linear all;
+  opacity: 0;
+  transform: translateX(40px);
+}
+img.ng-enter.ng-enter-active{
+  opacity: 1;
+  transform: translateX(0);
 }
 </style>
 <div class ="container" style="min-height: 500px;">
@@ -38,7 +44,7 @@ ul li{
 
       <nav class="navbar navbar-dark bg-dark rounded">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#frontend" aria-controls="frontend" aria-expanded="false" aria-label="Toggle navigation">
-          <span>Front End Tech</span>
+          <span class="text-center">Front End Tech</span>
         </button>
       </nav>
     <div class="row" >
