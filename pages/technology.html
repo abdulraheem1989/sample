@@ -17,8 +17,7 @@ body{
 }
 
 ul img{
-  background-color: #00cc99;
-  border-style: outset;
+
   opacity: 0.9;
 }
 ul li{
@@ -28,15 +27,7 @@ ul li{
   width: 85%;
   margin:5% auto;
 }
-img.ng-enter{
-  transition: 0.2s linear all;
-  opacity: 0;
-  transform: translateX(40px);
-}
-img.ng-enter.ng-enter-active{
-  opacity: 1;
-  transform: translateX(0);
-}
+
 </style>
 <div class ="container" style="min-height: 500px;">
   <section class="mytech">
@@ -77,7 +68,7 @@ img.ng-enter.ng-enter-active{
 <div class="row">
       <div class="col-12 row collapse" id="devtools" style="margin-top:15px;">
         <ul ng-repeat="dev in devtools" style="list-style-type: none;">
-          <li><img class="rounded-circle" ng-src="{{dev.imgpath}}" style="height:50px;width:50px;"></li>
+          <li><img ng-src="{{dev.imgpath}}" style="height:50px;width:50px;"></li>
         </ul>
       </div>
     </div>
